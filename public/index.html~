@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<title>Trial</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="trial.js"></script>
+<style>
+
+body, div {
+  background-color: #aaa;
+}
+
+.animal {
+  display: none;
+  width: 95px;  
+  position: absolute;  
+  z-index: 100;
+}
+
+#msg {
+  z-index: 1;
+  left: 20px;;
+  position: absolute;
+  top: 10px;
+  margin-right: 100px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.target {
+  z-index: 999;
+}
+
+.sub {
+  position: absolute;
+  bottom: 5px;
+  left: 48%;
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="msg"></div>
+<img class="animal" id="cat" src="cat.png"/>
+<img class="animal" id="dog" src="dog.png"/>
+<img class="animal" id="fish" src="fish.png"/>
+
+<button class="sub">Submit</button>
+
+</body>
+
+
+</html>
