@@ -1,5 +1,6 @@
 #!/bin/bash
 cd public
 coffee -c *.coffee
+uglifyjs trial.js > trials.ugly.js
 cd ..
 coffee app
